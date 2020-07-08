@@ -46,10 +46,7 @@ function max(node)
     maxNum = node.right
     return max(node.right)
   }
-  else
-  {
-    return maxNum
-  }
+return maxNum
 }
 
 function min(node)
@@ -60,8 +57,5 @@ function min(node)
     minNum = node.left
     return max(node.left)
   }
-  else
-  {
-    return minNum
-  }
+return minNum
 }
