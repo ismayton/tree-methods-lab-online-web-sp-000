@@ -40,7 +40,7 @@ function findOrAdd(rootNode, newNode)
 
 function max(node)
 {
-  let maxNum = node.data
+  let maxNum = node
   if(node.right)
   {
     maxNum = node.right
@@ -52,7 +52,7 @@ return maxNum
 
 function min(node)
 {
-  let minNum = node.data
+  let minNum = node
   if(node.left)
   {
     minNum = node.left
