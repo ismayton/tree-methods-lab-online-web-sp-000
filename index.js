@@ -44,8 +44,7 @@ function max(node)
   if(node.right)
   {
     maxNum = node.right
-    let current = node.right
-    return max(current)
+    return max(node.right)
   }
 return maxNum
 }
