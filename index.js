@@ -44,7 +44,8 @@ function max(node)
   if(node.right)
   {
     maxNum = node.right
-    return max(node.right)
+    let current = node.right
+    return max(current)
   }
 return maxNum
 }
@@ -55,7 +56,7 @@ function min(node)
   if(node.left)
   {
     minNum = node.left
-    return max(node.left)
+    return min(node.left)
   }
 return minNum
 }
