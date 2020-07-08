@@ -40,28 +40,28 @@ function findOrAdd(rootNode, newNode)
 
 function max(node)
 {
-  let max = node.data
+  let maxNum = node.data
   if(node.right)
   {
-    max = node.right
+    maxNum = node.right
     return max(node.right)
   }
   else
   {
-    return max
+    return maxNum
   }
 }
 
 function min(node)
 {
-  let max = node.data
+  let minNum = node.data
   if(node.left)
   {
-    max = node.left
+    minNum = node.left
     return max(node.left)
   }
   else
   {
-    return max
+    return minNum
   }
 }
