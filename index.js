@@ -38,12 +38,13 @@ function findOrAdd(rootNode, newNode)
   return true;
 }
 
-function max()
+function max(node)
 {
-  
+  let max = node
+  if()
 }
 
-function min()
+function min(node)
 {
   
 }
