@@ -35,6 +35,7 @@ function findOrAdd(rootNode, newNode)
     }
     rootNode.right = newNode
   }
+  return true;
 }
 
 function max()
